@@ -1,0 +1,725 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Vigorex Site</title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="./css/style.css">
+	
+	 
+</head>
+
+	
+
+	<!-- Title -->
+<header>
+  <section id="footer"
+    style="background: url('./images/background.jpg') no-repeat center center;
+           background-size: cover;
+           min-height: 100vh;
+           background-attachment: fixed;
+           display: flex;
+           align-items: center;
+           position: relative;
+           overflow: hidden;">
+    
+    <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none"> 
+      <div class="container">
+        <img src="./images/logo.png" class="logo" height="80" width="80" alt="logo" style="margin-top: -33px;">
+        <span id="caption" class="fw-bold lh-1 text-body-emphasis" 
+			style="font-size: clamp(2rem, 8vw, 5rem); 
+					font-weight: 900; 
+					letter-spacing: clamp(-1px, -0.5vw, -2px);
+					max-width: 100%;
+					word-wrap: break-word;" 
+			data-translate="header">
+  			<strong>IGOREX WEST <br> AFRICA LTD</strong>
+		</span>
+      </div>
+    </a> 
+
+   <!-- Toggle Button (Add this at the top of your body) -->
+<button class="sidebar-toggle" id="sidebarToggle">
+    <svg fill="currentColor" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+    </svg>
+</button>
+
+<!-- Overlay (Add this too) -->
+<div class="overlay" id="overlay"></div>
+
+<!-- Sidebar Navigation -->
+<nav class="sidebar" id="sidebar">
+   
+
+    <a href="#home" class="nav-link" data-translate="nav-home">
+        <img src="./images/house-door.svg" width="24" alt="home">
+        <span>Home</span>
+    </a>
+
+    <a href="#features" class="nav-link" data-translate="nav-features">
+        <img src="./images/speedometer2.svg" width="24" alt="features">
+        <span>Features</span>
+    </a>
+
+    <a href="#about" class="nav-link" data-translate="nav-about">
+        <img src="./images/menu-button.svg" width="24" alt="about">
+        <span>About</span>
+    </a>
+
+    <a href="#distributor" class="nav-link" data-translate="nav-distributor">
+        <img src="./images/distribute-vertical.svg" width="24" alt="distributor">
+        <span>Distributors</span>
+    </a>
+
+    <a href="#faq" class="nav-link" data-translate="nav-faqs">
+        <img src="./images/person-rolodex.svg" width="24" alt="faqs">
+        <span>FAQs</span>
+    </a>
+</nav>
+
+    <!-- ✅ The blended curve with gradient -->
+<div  id="top-curve">
+  <svg viewBox="0 0 1440 320" preserveAspectRatio="none">
+    <defs>
+      <linearGradient id="top-curve" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#fff" />
+        <stop offset="100%" stop-color="#f9f9f9" />
+      </linearGradient>
+    </defs>
+    <path 
+      fill="url(#curveGradient)" 
+      fill-opacity="1"
+      d="M0,300 L960,300 C1200,300 1320,160 1440,0 L1440,320 L0,320 Z">
+    </path>
+  </svg>
+</div>
+
+  </section>
+</header>
+
+
+  <main>
+	<div id="home" class="hero-section">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <div class="hero-badge">
+                        <svg viewBox="0 0 24 24">
+                            <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                        Premium Quality
+                    </div>
+
+                    <h1 class="hero-title" data-translate="title">Vigorex Chocolate</h1>
+
+                    <p class="hero-description" data-translate="description">
+                        Vigorex chocolate bar for men is a sex enhancement supplement. It is a unique product obtained from natural sources. It is 100% plant-based with no documented side effects. Vigorex chocolate is formulated to increase your natural sex drive and libido while keeping you in control of your sexual urges and arousal. It has nutrients that build up the body and releases serotonin, which helps the body stay healthy. Vigorex chocolate bar for men is light, robust, and fortified with healthy ingredients to improve your sexual function.
+                    </p>
+
+                    <div class="hero-features">
+                        <div class="feature-tag">
+                            <svg viewBox="0 0 24 24">
+                                <path d="M22 11.08V12a10 10 0 11-5.93-9.14" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M22 4L12 14.01l-3-3" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                            100% Natural
+                        </div>
+                        <div class="feature-tag">
+                            <svg viewBox="0 0 24 24">
+                                <path d="M22 11.08V12a10 10 0 11-5.93-9.14" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M22 4L12 14.01l-3-3" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                            Plant-Based
+                        </div>
+                        <div class="feature-tag">
+                            <svg viewBox="0 0 24 24">
+                                <path d="M22 11.08V12a10 10 0 11-5.93-9.14" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M22 4L12 14.01l-3-3" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                            No Side Effects
+                        </div>
+                    </div>
+
+                    <div class="hero-cta">
+                        <a href="#about" class="cta-button cta-secondary" data-translate="btn-learn">
+                            <span>Learn More</span>
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="12" cy="12" r="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M12 16v-4M12 8h.01" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="hero-image-wrapper">
+                    <div class="hero-image-container">
+                        <img class="hero-image" src="./images/vigorex.jpg" alt="Vigorex Chocolate">
+                    
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+		<div class="language-selector-container">
+        <div class="selector-header">
+            <div class="selector-icon">
+                <svg viewBox="0 0 24 24">
+                    <circle cx="12" cy="12" r="10" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M2 12h20M12 2a15.3 15.3 0 014 10 15.3 15.3 0 01-4 10 15.3 15.3 0 01-4-10 15.3 15.3 0 014-10z" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </div>
+            <h5 class="selector-title" data-translate="select-location">Select Your Location & Language</h5>
+            <p class="selector-subtitle">Choose your country and preferred language for a personalized experience</p>
+        </div>
+
+        <div class="form-grid">
+            <div class="form-group">
+                <label for="countrySelect" class="form-label" data-translate="label-country">
+                    <svg viewBox="0 0 24 24">
+                        <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z" stroke-linecap="round" stroke-linejoin="round"/>
+                        <circle cx="12" cy="10" r="3" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    Country
+                </label>
+                <select id="countrySelect" class="form-select">
+                    <option value="" data-translate="select-country">-- Select Country --</option>
+                    <option value="algeria">🇩🇿 Algeria</option>
+                    <option value="angola">🇦🇴 Angola</option>
+                    <option value="benin">🇧🇯 Benin</option>
+                    <option value="burkina-faso">🇧🇫 Burkina Faso</option>
+                    <option value="cameroon">🇨🇲 Cameroon</option>
+                    <option value="cape-verde">🇨🇻 Cape Verde</option>
+                    <option value="chad">🇹🇩 Chad</option>
+                    <option value="cote-divoire">🇨🇮 Côte d'Ivoire</option>
+                    <option value="dr-congo">🇨🇩 DR Congo</option>
+                    <option value="egypt">🇪🇬 Egypt</option>
+                    <option value="ethiopia">🇪🇹 Ethiopia</option>
+                    <option value="gambia">🇬🇲 Gambia</option>
+                    <option value="ghana">🇬🇭 Ghana</option>
+                    <option value="guinea">🇬🇳 Guinea</option>
+                    <option value="guinea-bissau">🇬🇼 Guinea-Bissau</option>
+                    <option value="kenya">🇰🇪 Kenya</option>
+                    <option value="liberia">🇱🇷 Liberia</option>
+                    <option value="madagascar">🇲🇬 Madagascar</option>
+                    <option value="malawi">🇲🇼 Malawi</option>
+                    <option value="mali">🇲🇱 Mali</option>
+                    <option value="mauritania">🇲🇷 Mauritania</option>
+                    <option value="morocco">🇲🇦 Morocco</option>
+                    <option value="mozambique">🇲🇿 Mozambique</option>
+                    <option value="niger">🇳🇪 Niger</option>
+                    <option value="senegal">🇸🇳 Senegal</option>
+                    <option value="sierra-leone">🇸🇱 Sierra Leone</option>
+                    <option value="somalia">🇸🇴 Somalia</option>
+                    <option value="south-africa">🇿🇦 South Africa</option>
+                    <option value="sudan">🇸🇩 Sudan</option>
+                    <option value="tanzania">🇹🇿 Tanzania</option>
+                    <option value="togo">🇹🇬 Togo</option>
+                    <option value="uganda">🇺🇬 Uganda</option>
+                    <option value="zambia">🇿🇲 Zambia</option>
+                    <option value="zimbabwe">🇿🇼 Zimbabwe</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="languageSelect" class="form-label" data-translate="label-language">
+                    <svg viewBox="0 0 24 24">
+                        <path d="M5 8l6 6M4 14l6-6 2-3M2 5h12M7 2h1M22 22l-5-10-5 10M14.5 17h6" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    Language
+                </label>
+                <select id="languageSelect" class="form-select" disabled>
+                    <option value="" data-translate="select-language">-- Select Language --</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="info-banner">
+            <svg viewBox="0 0 24 24">
+                <circle cx="12" cy="12" r="10" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M12 16v-4M12 8h.01" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            <p class="info-text" data-translate="translation-note">
+                Translation happens instantly when you select a language. All content on the page will be automatically translated.
+            </p>
+        </div>
+
+        <div class="selected-info" id="selectedInfo">
+            <div class="selected-info-title">
+                <svg viewBox="0 0 24 24">
+                    <path d="M22 11.08V12a10 10 0 11-5.93-9.14" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M22 4L12 14.01l-3-3" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                Your Selection
+            </div>
+            <div class="selected-details">
+                <div class="detail-badge">
+                    <svg viewBox="0 0 24 24">
+                        <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z" stroke-linecap="round" stroke-linejoin="round"/>
+                        <circle cx="12" cy="10" r="3" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    <span><strong>Country:</strong> <span id="selectedCountry">-</span></span>
+                </div>
+                <div class="detail-badge">
+                    <svg viewBox="0 0 24 24">
+                        <path d="M5 8l6 6M4 14l6-6 2-3M2 5h12M7 2h1M22 22l-5-10-5 10M14.5 17h6" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    <span><strong>Language:</strong> <span id="selectedLanguage">-</span></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+		<!-- Features -->
+		<div id="features" class="features-section" >
+        <div class="section-header">
+            <span class="section-label">Why Choose Us</span>
+            <h2 class="section-title">Powerful Benefits</h2>
+            <p class="section-subtitle">Experience the natural transformation with our premium formula</p>
+        </div>
+
+        <div class="features-grid">
+            <!-- Feature Card 1 -->
+            <div class="feature-card feature-card-1">
+                <div class="feature-bg"></div>
+                <div class="feature-content">
+                    <div class="feature-icon-wrapper">
+                        <svg viewBox="0 0 24 24">
+                            <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+
+                    <div class="feature-text">
+                        <div class="feature-number">Benefit 01</div>
+                        <h3 class="feature-title" data-translate="feature1"><strong>It works the first time you use it.</strong></h3>
+                        <p class="feature-description"><strong>Experience immediate results from your very first use. Our fast-acting formula begins working within minutes.</strong></p>
+                    </div>
+
+                    <div class="feature-footer">
+                        <div class="feature-brand">
+                            <img src="./images/logo.png" alt="Vigorex" class="brand-logo">
+                            <span class="brand-name" data-translate="brand">Vigorex</span>
+                        </div>
+                        <div class="feature-arrow">
+                            <svg viewBox="0 0 24 24">
+                                <path d="M5 12h14M12 5l7 7-7 7" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Feature Card 2 -->
+            <div class="feature-card feature-card-2">
+                <div class="feature-bg"></div>
+                <div class="feature-content">
+                    <div class="feature-icon-wrapper">
+                        <svg viewBox="0 0 24 24">
+                            <path d="M22 12h-4l-3 9L9 3l-3 9H2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+
+                    <div class="feature-text">
+                        <div class="feature-number">Benefit 02</div>
+                        <h3 class="feature-title" data-translate="feature2"><strong>Increase energy levels</strong></h3>
+                        <p class="feature-description"><strong>Boost your vitality and stamina naturally. Feel energized and ready for peak performance throughout the day.</strong></p>
+                    </div>
+
+                    <div class="feature-footer">
+                        <div class="feature-brand">
+                            <img src="./images/logo.png" alt="Vigorex" class="brand-logo">
+                            <span class="brand-name" data-translate="brand">Vigorex</span>
+                        </div>
+                        <div class="feature-arrow">
+                            <svg viewBox="0 0 24 24">
+                                <path d="M5 12h14M12 5l7 7-7 7" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Feature Card 3 -->
+            <div class="feature-card feature-card-3">
+                <div class="feature-bg"></div>
+                <div class="feature-content">
+                    <div class="feature-icon-wrapper">
+                        <svg viewBox="0 0 24 24">
+                            <circle cx="12" cy="12" r="10" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M12 6v6l4 2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+
+                    <div class="feature-text">
+                        <div class="feature-number">Benefit 03</div>
+                        <h3 class="feature-title" data-translate="feature3"><strong>Promotes hormonal balance</strong></h3>
+                        <p class="feature-description"><strong>Support your body's natural hormonal equilibrium for optimal wellness and sustained vitality.</strong></p>
+                    </div>
+                    <div class="feature-footer">
+                        <div class="feature-brand">
+                            <img src="./images/logo.png" alt="Vigorex" class="brand-logo">
+                            <span class="brand-name" data-translate="brand">Vigorex</span>
+                        </div>
+                        <div class="feature-arrow">
+                            <svg viewBox="0 0 24 24">
+                                <path d="M5 12h14M12 5l7 7-7 7" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  <!-- About section -->
+	<div id="about" class="about-section">
+        <div class="section-header">
+            <span class="section-label" data-translate="about-label">About Us</span>
+            <h1 class="section-title" data-translate="about-title">Your Trusted Partner in Africa</h1>
+            <p class="section-subtitle" data-translate="about-subtitle">
+                Leading wholesale distributor of authentic Vigorex Chocolate For Men across the African continent
+            </p>
+        </div>
+
+        <div class="features-grid">
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <svg viewBox="0 0 24 24">
+                        <path d="M9 11l3 3L22 4" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M21 12v7a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h11" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </div>
+                <h3 class="feature-title" data-translate="feature1-title">100% Authentic Products</h3>
+                <p class="feature-text" data-translate="feature1-text">
+                    All our brands are <span class="highlight">guaranteed authentic</span>. We are authorized online distributors shipping directly from Liberia.
+                </p>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <svg viewBox="0 0 24 24">
+                        <circle cx="12" cy="12" r="10" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M2 12h20M12 2a15.3 15.3 0 014 10 15.3 15.3 0 01-4 10 15.3 15.3 0 01-4-10 15.3 15.3 0 014-10z" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </div>
+                <h3 class="feature-title" data-translate="feature2-title">Pan-African Coverage</h3>
+                <p class="feature-text" data-translate="feature2-text">
+                    We deliver to <span class="highlight">all African countries</span> including Ghana, Kenya, South Africa, and beyond with competitive shipping rates.
+                </p>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <svg viewBox="0 0 24 24">
+                        <path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <circle cx="9" cy="7" r="4" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M23 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </div>
+                <h3 class="feature-title" data-translate="feature3-title">Commercial Solutions</h3>
+                <p class="feature-text" data-translate="feature3-text">
+                    Serving restaurants, businesses, offices, manufacturers, and commercial enterprises across Africa.
+                </p>
+            </div>
+        </div>
+
+        <div class="stats-section">
+            <div class="stat-item">
+                <span class="stat-number">100%</span>
+                <span class="stat-label" data-translate="stat1">Authentic Products</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-number">50+</span>
+                <span class="stat-label" data-translate="stat2">Countries Served</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-number">24/7</span>
+                <span class="stat-label" data-translate="stat3">Customer Support</span>
+            </div>
+        </div>
+
+        <div class="coverage-section">
+            <h3 class="coverage-title" data-translate="coverage-title">Comprehensive African Coverage</h3>
+            <p class="coverage-text" data-translate="coverage-text">
+                We provide transparent shipping and clearing cost quotes to ensure you get the best landed costs for your destination.
+            </p>
+            <div class="countries-list">
+                <span class="country-badge">Ghana</span>
+                <span class="country-badge">Kenya</span>
+                <span class="country-badge">South Africa</span>
+                <span class="country-badge">Burkina-faso</span>
+                <span class="country-badge">All Africa</span>
+            </div>
+        </div>
+
+        <div class="cta-section">
+            <a href="#faq" class="cta-button" data-translate="contact-btn">
+                Get Your Quote Today
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M5 12h14M12 5l7 7-7 7" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </a>
+        </div>
+    </div>
+
+<!-- Distributor Form Section -->
+<div style="position: relative;">
+	<!-- Full-width background image that covers half the section -->
+	<div style="position: absolute; top: 0; left: 0; right: 0; height: 50%; background: url('./images/./distributor.jpg') no-repeat center center; background-size: cover; z-index: 0;"></div>
+	<!-- Bottom half color -->
+<!-- Bottom half gradient -->
+<div style="position:absolute; bottom:0; left:0; right:0; height:50%; background:linear-gradient(90deg, rgba(255,193,7,0.8) 0%, rgba(217,204,180,1) 100%); z-index:0;"></div>
+	
+	<div id="distributor" class="container my-5 py-5" style="position: relative; z-index: 1; background-color: transparent;">
+		<div class="row">
+			<div class="col-lg-8 mx-auto" style="background-color: transparent;">
+				<h1 class="mb-4 text-center" data-translate="distributor-title" style="text-shadow: 2px 2px 4px rgba(0,0,0,0.3);"><strong>Become a Distributor</strong></h1>
+				<p class="lead text-center mb-5" data-translate="distributor-subtitle" style="text-shadow: 1px 1px 3px rgba(0,0,0,0.2);"> <strong>Join our network of distributors across Africa and grow your business with Vigorex Chocolates</strong></p>
+				
+				<div class="card shadow-lg border-0" style="background:linear-gradient(90deg, rgba(255,193,7,0.8) 0%, rgba(217,204,180,1) 100%); z-index:0;">
+					<div class="card-body p-4 p-md-5">
+						<form id="distributorForm" action="https://formspree.io/f/mqayradz" method="POST">
+							<div class="row g-3">
+								<div class="col-md-6">
+									<label for="fullName" class="form-label" data-translate="form-name">Full Name *</label>
+									<input type="text" class="form-control" id="fullName" name="fullName" required>
+								</div>
+								
+								<div class="col-md-6">
+									<label for="email" class="form-label" data-translate="form-email">Email Address *</label>
+									<input type="email" class="form-control" id="email" name="email" required>
+								</div>
+								
+								<div class="col-md-6">
+									<label for="phone" class="form-label" data-translate="form-phone">Phone Number *</label>
+									<input type="tel" class="form-control" id="phone" name="phone">
+								</div>
+
+								<div class="col-md-6">
+									<label for="phone2" class="form-label" data-translate="form-phone">Alternative number*</label>
+									<input type="tel" class="form-control" id="phone2" name="phone2" required>
+								</div>
+								
+								<div class="col-md-6">
+									<label for="distCountry" class="form-label" data-translate="form-country">Country *</label>
+									<select class="form-select" id="distCountry" name="distCountry" required>
+										<option value="">-- Select Country --</option>
+										<option value="algeria">Algeria</option>
+										<option value="angola">Angola</option>
+										<option value="benin">Benin</option>
+										<option value="burkina-faso">Burkina Faso</option>
+										<option value="cameroon">Cameroon</option>
+										<option value="cape-verde">Cape Verde</option>
+										<option value="chad">Chad</option>
+										<option value="cote-divoire">Côte d'Ivoire</option>
+										<option value="dr-congo">DR Congo</option>
+										<option value="egypt">Egypt</option>
+										<option value="ethiopia">Ethiopia</option>
+										<option value="gambia">Gambia</option>
+										<option value="ghana">Ghana</option>
+										<option value="guinea">Guinea</option>
+										<option value="guinea-bissau">Guinea-Bissau</option>
+										<option value="kenya">Kenya</option>
+										<option value="liberia">Liberia</option>
+										<option value="madagascar">Madagascar</option>
+										<option value="malawi">Malawi</option>
+										<option value="mali">Mali</option>
+										<option value="mauritania">Mauritania</option>
+										<option value="morocco">Morocco</option>
+										<option value="mozambique">Mozambique</option>
+										<option value="niger">Niger</option>
+										<option value="senegal">Senegal</option>
+										<option value="sierra-leone">Sierra Leone</option>
+										<option value="somalia">Somalia</option>
+										<option value="south-africa">South Africa</option>
+										<option value="sudan">Sudan</option>
+										<option value="tanzania">Tanzania</option>
+										<option value="togo">Togo</option>
+										<option value="uganda">Uganda</option>
+										<option value="zambia">Zambia</option>
+										<option value="zimbabwe">Zimbabwe</option>
+									</select>
+								</div>
+								
+								<div class="col-md-6">
+									<label for="city" class="form-label" data-translate="form-city">City *</label>
+									<input type="text" class="form-control" id="city" name="city" required>
+								</div>
+								
+								<div class="col-md-6">
+									<label for="businessName" class="form-label" data-translate="form-business">Business Name</label>
+									<input type="text" class="form-control" name="businessName" id="businessName">
+								</div>
+								
+								<div class="col-md-12">
+									<label for="businessType" class="form-label" data-translate="form-business-type">Business Type *</label>
+									<select class="form-select" id="businessType" name="businessType" required>
+										<option value="">-- Select Business Type --</option>
+										<option value="retail">Retail Store</option>
+										<option value="wholesale">Wholesale Distributor</option>
+										<option value="pharmacy">Pharmacy</option>
+										<option value="supermarket">Supermarket</option>
+										<option value="online">Online Store</option>
+										<option value="other">Other</option>
+									</select>
+								</div>
+								
+								<div class="col-md-12">
+									<label for="experience" class="form-label" data-translate="form-experience">Years of Experience in Distribution</label>
+									<input type="number" class="form-control" id="experience" name="experience" min="0" max="50">
+								</div>
+								
+								<div class="col-12">
+									<label for="message" class="form-label" data-translate="form-message">Tell us about yourself</label>
+									<textarea class="form-control" id="message" name="message" rows="4" required></textarea>
+								</div>
+								
+								<div class="col-12 mt-4">
+									<button type="submit" class="btn btn-primary btn-lg w-100" data-translate="form-submit">Submit Application</button>
+								</div>
+							</div>
+						</form>
+						
+						<div id="successMessage" class="alert alert-success mt-4" style="display:none;">
+							<h5 data-translate="success-title">Thank you for your interest!</h5>
+							<p data-translate="success-message">We have received your application and will contact you within 2-3 business days.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- Contact section -->
+    <div id="faq" class="contact-section" style="margin-top: -49px; padding-top: 0;">
+
+        
+        
+        <!-- SVG Curve Background -->
+        <svg class="contact-curve position-absolute top-0 start-0 w-100" style="position: absolute; top: 0; left: 0; height:100%; width: 100%;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+            <path d="M1200 0L0 0 892.25 114.72 1200 0z" fill="url(#curveGradient)" opacity="0.9" stroke="none"></path>
+            <defs>
+                <linearGradient id="curveGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+                    <stop offset="0%" style="stop-color:#ffc107;stop-opacity:0.8" />
+                    <stop offset="100%" style="stop-color:#d9ccb4;stop-opacity:1" />
+                </linearGradient>
+            </defs>
+        </svg>
+        
+        <!-- Decorative Elements -->
+        <div class="floating-circle circle-1"></div>
+        <div class="floating-circle circle-2"></div>
+        <div class="floating-circle circle-3"></div>
+        
+        <div class="container" style="position: relative; z-index: 10; padding-top: 4rem;">
+            <div style="max-width: 900px; margin: 0 auto;">
+                <!-- Section Title -->
+                <div class="contact-title-wrapper text-center mb-5">
+                    <div class="contact-icon-badge mb-3">
+                        <svg width="40" height="40" fill="#ffc107" viewBox="0 0 16 16">
+                            <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z"/>
+                        </svg>
+                    </div>
+                    <h2 class="contact-main-title" data-translate="contact-title">Get In Touch</h2>
+                    <p class="contact-subtitle">We'd love to hear from you. Reach out anytime!</p>
+                </div>
+                
+                <!-- Contact Cards -->
+                <div class="contact-cards-grid">
+                    <!-- Phone Card -->
+                    <div class="contact-card">
+                        <div class="contact-card-icon">
+                            <svg width="28" height="28" fill="currentColor" viewBox="0 0 16 16">
+                                <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+                            </svg>
+                        </div>
+                        <div class="contact-card-content">
+                            <h5 class="contact-card-title" data-translate="phone-label">Phone Number</h5>
+                            <a href="tel:+905015639858" class="contact-card-link">+905015639858</a>
+                        </div>
+                    </div>
+                    
+                    <!-- Email Card -->
+                    <div class="contact-card">
+                        <div class="contact-card-icon">
+                            <svg width="28" height="28" fill="currentColor" viewBox="0 0 16 16">
+                                <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z"/>
+                            </svg>
+                        </div>
+                        <div class="contact-card-content">
+                            <h5 class="contact-card-title" data-translate="email-label">Email Address</h5>
+                            <a href="mailto:Vigorexchocolate20@gmail.com" class="contact-card-link">Vigorexchocolate20@gmail.com</a>
+                        </div>
+                    </div>
+                    
+                    <!-- Address Card -->
+                    <div class="contact-card contact-card-wide">
+                        <div class="contact-card-icon">
+                            <svg width="28" height="28" fill="currentColor" viewBox="0 0 16 16">
+                                <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
+                            </svg>
+                        </div>
+                        <div class="contact-card-content">
+                            <h5 class="contact-card-title" data-translate="address-label">Office Address</h5>
+                            <p class="contact-card-text" data-translate="address-text">No. 24th street opposite JFK sinkor plank field behind Lucky pharmacy, Liberia.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- CTA Button -->
+                <div class="text-center mt-5">
+                    <a href="mailto:Vigorexchocolate20@gmail.com" class="contact-cta-btn">
+                        <span>Send us a message</span>
+                        <svg width="20" height="20" fill="currentColor" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+	
+	<footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <h5>Vigorex West Africa Ltd</h5>
+                    <p class="text-white-50">Premium natural enhancement products for the African market. Trusted by thousands across the continent.</p>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <h6>Quick Links</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="#home" class="footer-link">Home</a></li>
+                        <li><a href="#features" class="footer-link">Features</a></li>
+                        <li><a href="#about" class="footer-link">About</a></li>
+                        <li><a href="#distributor" class="footer-link">Distributors</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <h6>Resources</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="#contact" class="footer-link">Contact</a></li>
+                        <li><a href="#product" class="footer-link">Products</a></li>
+                        <li><a href="#distributor" class="footer-link">Partnership</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                   <img src="./images/logo.png" width="250" alt="vigorex">
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p class="mb-2">© 2025 Vigorex West Africa Ltd. All Rights Reserved.</p>
+                <p class="mb-0"><small>Powered by A$tro Techh | <a href="mailto:preciousch99@gmail.com" class="footer-link">preciousch99@gmail.com</a></small></p>
+            </div>
+        </div>
+    </footer>
+  
+
+
+	<script src="./js/script.js"></script>
+</body>
+</html>
